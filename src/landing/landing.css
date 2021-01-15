@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gainsboro;
+    margin-top: 0px;
+    padding-bottom: 0.5vh;
+}
+
+.App_main {
+    background-color: #222233;
+    color: #aaccff;
+    min-height: 100vh;
+    height: 100%;
+    padding-bottom: 13px;
+}
+
+.landing {
+	text-align: left;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60vw;
+}
+
+

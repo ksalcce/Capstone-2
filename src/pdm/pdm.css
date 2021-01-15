@@ -1,0 +1,26 @@
+form > div {
+    text-align: left;
+    padding-top: 2px;
+}
+
+label.contents {
+    /* position: absolute; */
+    /* top:1ch */
+    color: black;
+}
+
+p {
+    padding-top: 5px;
+    margin: auto;
+    width: 60vw;
+}
+
+.asm_textarea {
+    margin-left: 20px;
+}
+
+.PDM_Table {
+    margin-right: auto;
+    margin-left: auto;
+}
+

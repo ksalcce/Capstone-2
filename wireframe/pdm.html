@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description" content="Grey Nagle Portfolio" />
+        <script
+            src="https://kit.fontawesome.com/68de20944b.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+        />
+        <link rel="stylesheet" type="text/css" href="landing.css" />
+        <title>Streamline; Data Management</title>
+    </head>
+    <body class="blue">
+        <header class="fixed">
+            <h1>
+                Streamline
+            </h1>
+            <a href="landing.html">Home</a>
+            <a href="pdm-prt-form.html">New Part</a>
+            <a href="pdm-asm-form.html">New Assembly</a>
+        </header>
+        <main>
+            <p>
+                Currently loaded data:
+            </p>
+            <table style="width: 30%;">
+                <tr>
+                    <th>Part Number</th>
+                    <th>Description</th>
+                    <th>Stock Origin</th>
+                    <th>Machining Code</th>
+                    <th>Complexity</th>
+                </tr>
+                <tr>
+                    <td>123000</td>
+                    <td>Gland</td>
+                    <td>A276</td>
+                    <td>TM</td>
+                    <td>3,1</td>
+                </tr>
+                <tr>
+                    <td>123001</td>
+                    <td>Sleeve</td>
+                    <td>A276</td>
+                    <td>TM</td>
+                    <td>5,1</td>
+                </tr>
+                <tr>
+                    <td>123002</td>
+                    <td>Lock Ring</td>
+                    <td>A276</td>
+                    <td>T</td>
+                    <td>1</td>
+                </tr>
+            </table>
+			<table style="width: 30%;">
+                <tr>
+                    <th>Assembly Number</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><a href="assemblies/:assembly-id">123003</a></td>
+                    <td>123 Seal Carbon/SSC FEPM</td>
+                </tr>
+                <tr>
+                    <td><a href="assemblies/:assembly-id">123004</a></td>
+                    <td>123 Seal SSC/SSC EP</td>
+                </tr>
+				<tr>
+                    <td><a href="assemblies/:assembly-id">123005</a></td>
+                    <td>123 Seal TC/SSC FKM</td>
+                </tr>
+            </table>
+        </main>
+    </body>
+</html>

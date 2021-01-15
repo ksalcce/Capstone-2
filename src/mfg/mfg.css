@@ -1,0 +1,20 @@
+form>div{
+	text-align: left;
+	padding-top: 2px;
+}
+
+.contents{
+	position: relative;
+	top:-16ch
+}
+
+p{
+	padding-top:5px;
+	margin:auto;
+	width:93vw;
+}
+
+.MFG_Table{
+	margin-left: auto;
+	margin-right: auto;
+}
