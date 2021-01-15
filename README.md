@@ -2,7 +2,6 @@ Streamline
 
 Live link: https://streamline-dusky.vercel.app/
 
-API repo: https://github.com/greynagle/streamline-api
 
 Landing page:
 
